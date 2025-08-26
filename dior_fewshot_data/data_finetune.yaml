@@ -1,0 +1,25 @@
+path: /server/SA-TriHead/dior_fewshot_data
+train: finetune_combined_oversample/images
+val: val/images
+nc: 20
+names:
+- Expressway-Service-area
+- Expressway-toll-station
+- airplane
+- airport
+- baseballfield
+- basketballcourt
+- bridge
+- chimney
+- dam
+- golffield
+- groundtrackfield
+- harbor
+- overpass
+- ship
+- stadium
+- storagetank
+- tenniscourt
+- trainstation
+- vehicle
+- windmill
