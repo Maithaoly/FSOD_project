@@ -18,11 +18,11 @@ IMG_HEIGHT = 800
 TRAIN_SET_SIZE = int(len(ALL_IMAGE_FILES) * 0.8)
 
 BASE_CLASSES = [
-    'airport', 'Expressway-Service-area', 'Expressway-toll-station',
+    'airplane', 'airport', 'Expressway-Service-area', 'Expressway-toll-station',
     'dam', 'golffield', 'groundtrackfield', 'harbor', 'overpass', 'stadium',
-    'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill', 'basketballcourt'
+    'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill'
 ]
-NOVEL_CLASSES = ['baseballfield', 'airplane', 'bridge', 'chimney', 'ship']
+NOVEL_CLASSES = ['baseballfield', 'basketballcourt', 'bridge', 'chimney', 'ship']
 ALL_CLASSES = sorted(BASE_CLASSES + NOVEL_CLASSES)
 
 CLASS_MAPPING = {name: i for i, name in enumerate(ALL_CLASSES)}
